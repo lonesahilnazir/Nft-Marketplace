@@ -13,18 +13,18 @@ const FeaturedNft = ({ artistName, artistId, nftImage, nftValue, time }) => {
       <div
         style={{
           background:
-            "linear-gradient(92.8deg, rgba(255, 137, 61, 0.09) -52.37%, rgba(250, 250, 250, 0.9) 137.41%)",
+            "linear-gradient(92.8deg, rgba(255, 137, 61, 0.09) -32.37%, rgba(250, 250, 250, 0.9) 157.41%)",
         }}
         className="flex backdrop-blur-2xl opacity-95 flex-row items-center justify-between w-full px-12 py-4 shadow-[0_4px_30px_0px_rgba(0,0,0,0.12)]"
       >
         <div>
-          <span className="block text-lg font-medium text-space-5 font-oxaniumblock font-oxanium">
+          <span className="block text-lg font-medium text-[#E4DEE7] font-oxaniumblock font-oxanium">
             Current Bid
           </span>
           <span className="block text-3xl font-bold text-white font-oxanium mt-1.5">{`${nftValue} ETH`}</span>
         </div>
         <div>
-          <span className="block text-lg font-medium text-space-5 font-oxanium">
+          <span className="block text-lg font-medium text-[#E4DEE7] font-oxanium">
             Ends in
           </span>
           <span className="block mt-1.5 text-3xl font-bold text-white font-oxanium">{`${time}`}</span>
@@ -35,7 +35,7 @@ const FeaturedNft = ({ artistName, artistId, nftImage, nftValue, time }) => {
           <span className="block text-3xl font-semibold font-oxanium text-[#16091B]">
             {artistName}
           </span>
-          <a href="/#">{`@${artistId}`}</a>
+          <a href="/#" className="text-[#594D5E]">{`@${artistId}`}</a>
         </div>
         <ButtonPrimary text="Start Bid" link="/#" />
       </div>

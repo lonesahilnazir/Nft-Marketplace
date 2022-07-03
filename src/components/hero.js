@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="container flex flex-row items-center h-screen mx-auto">
       <div className="w-1/2">
-        <h1 className="leading-normal text-space-9 text-7xl">
+        <h1 className="leading-normal text-[#F5FBF2] text-7xl">
           Explore, Buy and <br />
           Sell the
           <span className="text-primary">
@@ -22,18 +22,24 @@ const Hero = () => {
             <ButtonSecondary text="Create" link="/#" />
           </div>
         </div>
-        <div className='flex flex-row items-center mt-28'>
+        <div className="flex flex-row items-center mt-28">
           <div>
-            <span className='block text-6xl font-bold font-oxanium text-space-9'>32k+</span>
-            <span className='block text-2xl text-space-3'>Artworks</span>
+            <span className="block text-6xl font-bold font-oxanium text-[#F5FBF2]">
+              32k+
+            </span>
+            <span className="block text-2xl text-[#9B9E9A]">Artworks</span>
           </div>
-          <div className='mx-24'>
-            <span className='block text-6xl font-bold font-oxanium text-space-9'>20k+</span>
-            <span className='block text-2xl text-space-3'>Auctions</span>
+          <div className="mx-24">
+            <span className="block text-6xl font-bold font-oxanium text-[#F5FBF2]">
+              20k+
+            </span>
+            <span className="block text-2xl text-[#9B9E9A]">Auctions</span>
           </div>
           <div>
-            <span className='block text-6xl font-bold font-oxanium text-space-9'>12k+</span>
-            <span className='block text-2xl text-space-3'>Creators</span>
+            <span className="block text-6xl font-bold font-oxanium text-[#F5FBF2]">
+              12k+
+            </span>
+            <span className="block text-2xl text-[#9B9E9A]">Creators</span>
           </div>
         </div>
       </div>
@@ -46,7 +52,7 @@ const Hero = () => {
           time="25 hrs"
         />
       </div>
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-space-17/45"></div>
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-[#4f464e45] backdrop-blur-[30px]"></div>
     </div>
   );
 }

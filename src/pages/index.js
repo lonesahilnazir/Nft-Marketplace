@@ -10,10 +10,10 @@ export default function Home() {
         <link rel="icon" href="/assets/logo.svg" />
         <link rel="stylesheet" href="../styles/globals.css" />
       </Head>
-      <body className="bg-purple-1 font-workSans">
+      <body className="bg-[#1C121F] font-workSans">
         <Header />
         <main>
-        <Hero />
+          <Hero />
         </main>
       </body>
     </html>
