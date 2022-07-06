@@ -1,4 +1,4 @@
-import { ButtonPrimary, ButtonSecondary } from '../../common/components/buttons';
+import { ButtonPrimary, ButtonSecondary } from '../../common/components/Buttons';
 import { FeaturedNftCard } from '../../common/components/cards/FeaturedNftCard';
 import Image from 'next/image';
 
