@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="container absolute z-50 flex flex-row items-center justify-between w-full -translate-x-1/2 bg-transparent top-9 left-1/2">
       <div>
@@ -31,5 +31,3 @@ const Header = () => {
     </header>
   );
 }
-
-export default Header

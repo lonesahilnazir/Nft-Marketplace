@@ -1,0 +1,1 @@
+export { PopularCollectionCard } from "./PopularCollectionCard";

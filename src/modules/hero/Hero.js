@@ -1,8 +1,8 @@
-import { ButtonPrimary, ButtonSecondary } from './buttons';
-import FeaturedNft from './featuredNft';
+import { ButtonPrimary, ButtonSecondary } from '../../common/components/buttons';
+import { FeaturedNftCard } from '../../common/components/cards/FeaturedNftCard';
 import Image from 'next/image';
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <div className="container mx-auto">
       <div className="flex flex-row items-center h-screen mx-auto">
@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="z-10 flex items-center justify-center w-1/2 h-full">
-          <FeaturedNft
+          <FeaturedNftCard
             artistName="Artist"
             artistId="wzard"
             nftImage="/temp/featured.jpg"
@@ -65,5 +65,3 @@ const Hero = () => {
     </div>
   );
 }
-
-export default Hero

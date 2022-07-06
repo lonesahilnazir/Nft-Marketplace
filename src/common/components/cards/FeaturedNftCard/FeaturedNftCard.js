@@ -1,6 +1,5 @@
-import { ButtonPrimary } from "./buttons";
-
-const FeaturedNft = ({ artistName, artistId, nftImage, nftValue, time }) => {
+import { ButtonPrimary } from "../../buttons";
+export const FeaturedNftCard = ({ artistName, artistId, nftImage, nftValue, time }) => {
   return (
     <div
       style={{
@@ -42,5 +41,3 @@ const FeaturedNft = ({ artistName, artistId, nftImage, nftValue, time }) => {
     </div>
   );
 };
-
-export default FeaturedNft;

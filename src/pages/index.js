@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Header from "../components/header";
-import Hero from "../components/hero";
+import { Header } from "../common/components/Header"
+import { Hero } from "../modules/hero";
 
 export default function Home() {
   return (
