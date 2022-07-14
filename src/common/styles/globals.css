@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Font Oxanium */
+/* bold */
+@font-face {
+  font-family: 'Oxanium';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Oxanium-Bold'), local('Oxanium-Bold'), url('../../content/fonts/oxanium/Oxanium-Bold.ttf') format('truetype');
+}
+/* semi bold */
+@font-face {
+  font-family: 'Oxanium';
+  font-style: semi-bold;
+  font-weight: 600;
+  src: local('Oxanium Semi-bold'), local('Oxanium-SemiBold'), url('../../content/fonts/oxanium/Oxanium-SemiBold.ttf') format('truetype');
+}
+
+/* Font Work-Sans */
+/* regular */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Work Sans Regular'), local('WorkSans-Regular'), url('../../content/fonts/work_sans/WorkSans-Regular.ttf') format('truetype');
+}
+/* bold */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: bold;
+    font-weight: 700;
+    src: local('Work Sans Bold'), local('WorkSans-Bold'), url('../../content/fonts/work_sans/WorkSans-Bold.ttf') format('truetype');
+}
+/* semi bold */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: semi-bold;
+    font-weight: 600;
+    src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url('../../content/fonts/work_sans/WorkSans-SemiBold.ttf') format('truetype');
+}
