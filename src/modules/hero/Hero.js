@@ -7,7 +7,7 @@ export const Hero = () => {
     <div className="container mx-auto">
       <div className="flex flex-row items-center h-screen mx-auto">
         <div className="w-1/2">
-          <h1 className="leading-normal text-[#F5FBF2] text-7xl">
+          <h1 className="leading-normal text-[#F5FBF2] font-oxanium font-bold text-7xl">
             Explore, Buy and <br />
             Sell the
             <span className="text-primary">
@@ -18,7 +18,7 @@ export const Hero = () => {
           </h1>
           <div className="flex flex-row mt-20">
             <div className="">
-              <ButtonPrimary text="Explore" link="/#" />
+              <ButtonPrimary text="Explore" link="/about" />
             </div>
             <div className="ml-12">
               <ButtonSecondary text="Create" link="/#" />

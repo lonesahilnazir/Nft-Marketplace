@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { Header } from "../common/components/Header"
+import { Header } from "../common/components/Header";
 import { Hero } from "../modules/hero";
+import { LiveAuctions } from "../modules/liveAuctions";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Header />
         <main>
           <Hero />
+          <LiveAuctions />
         </main>
       </body>
     </html>
