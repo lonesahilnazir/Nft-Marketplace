@@ -3,10 +3,7 @@ import Link from 'next/link'
 export const Header = () => {
   return (
     <header
-      className="container relative z-50 flex flex-row items-center justify-between w-full -translate-x-1/2 top-9 left-1/2 xl:bg-transparent"
-      style={{
-        background: "linear-gradient(90deg, #1C121F 50%, #31282E 50%)",
-      }}
+        className="container relative z-50 flex flex-row items-center justify-between w-full px-4 mx-auto xl:top-4 md:px-0"
     >
       <div>
         <img src="/assets/logo.svg" alt="NFT Marketplace logo" />

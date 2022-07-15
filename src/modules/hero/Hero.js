@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 export const Hero = () => {
   return (
-    <div className="container mx-auto">
-      <div className="flex flex-row items-center h-screen mx-auto">
-        <div className="w-1/2">
+    <div className="container px-4 mx-auto md:px-0">
+      <div className="flex flex-col items-center mx-auto lg:h-screen lg:min-w[1050px] lg:flex-row">
+        <div className="z-10 w-full lg:w-1/2">
           <h1 className="leading-normal text-[#F5FBF2] font-oxanium font-bold text-7xl">
             Explore, Buy and <br />
             Sell the
@@ -24,14 +24,14 @@ export const Hero = () => {
               <ButtonSecondary text="Create" link="/#" />
             </div>
           </div>
-          <div className="flex flex-row items-center mt-28">
+          <div className="flex flex-row items-center justify-between w-full mt-28 max-w-[646px]">
             <div>
               <span className="block text-6xl font-bold font-oxanium text-[#F5FBF2]">
                 32k+
               </span>
               <span className="block text-2xl text-[#9B9E9A]">Artworks</span>
             </div>
-            <div className="mx-24">
+            <div className="">
               <span className="block text-6xl font-bold font-oxanium text-[#F5FBF2]">
                 20k+
               </span>
@@ -45,7 +45,7 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="z-10 flex items-center justify-center w-1/2 h-full">
+        <div className="z-10 flex items-center justify-center w-full h-full mt-20 lg:mt-0 lg:w-1/2">
           <FeaturedNftCard
             artistName="Artist"
             artistId="wzard"
@@ -54,7 +54,7 @@ export const Hero = () => {
             time="25 hrs"
           />
         </div>
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-[#4f464e45] backdrop-blur-[30px]"></div>
+        <div className="absolute top-0 right-0 w-1/2 h-full bg-[#4f464e45] backdrop-blur-[30px] hidden lg:block"></div>
       </div>
       <div className="flex flex-row items-center justify-between w-full max-w-[1235px] mx-auto mt-44 mb-24">
         <Image src={"/assets/coinbase.svg"} width="100%" height={"40px%"} />

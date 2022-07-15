@@ -7,7 +7,7 @@ export const FeaturedNftCard = ({ artistName, artistId, nftImage, nftValue, time
         maxWidth: "556px",
         maxHeight: "718px",
       }}
-      className="relative flex flex-col items-center w-full h-full px-5 pt-6 bg-center bg-no-repeat bg-cover"
+      className="relative flex flex-col items-center w-full h-full px-5 pt-6 bg-center bg-no-repeat bg-cover min-h-[718px]"
     >
       <div
         style={{
